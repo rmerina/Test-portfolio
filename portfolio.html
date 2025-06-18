@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio</title>
+<link href="portfolio.css" rel="stylesheet" />
+</head>
+<body>
+
+<header role="banner">
+  <div class="container">
+    <div class="logo" tabindex="0">Your Name</div>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" tabindex="0">About</a></li>
+        <li><a href="#skills" tabindex="0">Skills</a></li>
+        <li><a href="#experience" tabindex="0">Experience</a></li>
+        <li><a href="#projects" tabindex="0">Projects</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+      <label class="theme-switch">
+        <input type="checkbox" id="toggle-theme" />
+        <span class="slider"></span>
+      </label>
+
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="about" tabindex="0" aria-label="About me section">
+    <h1>Hello, I'm Your Name.</h1>
+    <div id="about-text">
+      <p>I am a passionate software engineer with a strong background in building modern, scalable web applications. Skilled in JavaScript, React, Node.js, and UI/UX design principles. I thrive on turning complex problems into seamless digital experiences.</p>
+      <p>Currently seeking new opportunities where I can contribute my skills and grow professionally.</p>
+    </div>
+    <div id="about-photo" aria-label="Portrait photo of Your Name">
+      <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5d120688-c5fd-49a4-9f7b-37fcba9436d0.png" alt="Portrait photo of Your Name with a modern background in professional attire" />
+    </div>
+  </section>
+
+  <section id="skills" tabindex="0" aria-label="Skills section">
+    <h2>Skills</h2>
+    <ul>
+      <li tabindex="0">HTML</li>
+      <li tabindex="0">CSS</li>
+      <li tabindex="0">JavaScript</li>
+      <li tabindex="0">UI/UX design</li>
+      <li tabindex="0">Figma Prototyping</li>
+      <li tabindex="0">Computer Desktop Troubleshooting</li>
+    </ul>
+  </section>
+
+  <section id="experience" tabindex="0" aria-label="Professional experience section">
+    <h2>Experience</h2>
+    <article class="job" tabindex="0">
+      <h3>Computer Tech</h3>
+      <div class="job-meta">PC Bytes Panabo - 2020</div>
+      <p class="job-desc">Maintaining computer systems within a business, handling troubleshooting, maintenance, and updates. Installing hardware and software, repairing computers, and providing technical support to customers at PC Bytes Panabo City.</p>
+    </article>
+    <article class="job" tabindex="0">
+      <h3>Web developer</h3>
+      <div class="job-meta">Wela School Systems - 2024</div>
+      <p class="job-desc">Built end-to-end features with Node.js, Express, and React. Enhanced data visualization dashboards and implemented RESTful APIs to improve client reporting.</p>
+    </article>
+  </section>
+
+  <section id="projects" tabindex="0" aria-label="Portfolio projects section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <article class="project-card" tabindex="0" aria-label="Project: Expense Tracker Web Application">
+        <div class="project-image">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/759d15b1-8c86-42b4-85a0-0914d3c7e796.png" alt="Screenshot or visual representation of Expense Tracker web application with charts and transaction lists" />
+        </div>
+        <div class="project-info">
+          <div class="project-title">Expense Tracker Web Application</div>
+          <p class="project-desc">A responsive web app to manage and track daily expenses with budgeting, charts, and notifications. Built with React, Chart.js, and Firebase.</p>
+          <div class="project-links">
+            <a href="https://github.com/username/expense-tracker" target="_blank" rel="noopener" aria-label="GitHub repository link for Expense Tracker App">
+              <span class="material-icons icon-link">code</span>Code
+            </a>
+            <a href="https://expense-tracker.example.com" target="_blank" rel="noopener" aria-label="Live demo link for Expense Tracker App">
+              <span class="material-icons icon-link">launch</span>Live
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" tabindex="0" aria-label="Project: Portfolio Website">
+        <div class="project-image">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6675b3a3-1e97-4bc0-a80f-67f6e59605b3.png" alt="Image showing a portfolio website layout featuring sections for about, skills, projects and contact" />
+        </div>
+        <div class="project-info">
+          <div class="project-title">Personal Portfolio Website</div>
+          <p class="project-desc">My personal portfolio site built with modern HTML, CSS, and JavaScript showcasing my skills and projects. Fully responsive and accessible.</p>
+          <div class="project-links">
+            <a href="https://github.com/username/portfolio-website" target="_blank" rel="noopener" aria-label="GitHub repository link for Portfolio Website">
+              <span class="material-icons icon-link">code</span>Code
+            </a>
+            <a href="https://portfolio.example.com" target="_blank" rel="noopener" aria-label="Live demo link for Portfolio Website">
+              <span class="material-icons icon-link">launch</span>Live
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" tabindex="0" aria-label="Project: Weather App">
+        <div class="project-image">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2a956a2f-9a4a-455d-8dd9-40f02a790742.png" alt="Screenshot of a weather application showing temperature, forecast, and conditions" />
+        </div>
+        <div class="project-info">
+          <div class="project-title">Weather Forecast App</div>
+          <p class="project-desc">A sleek weather app providing 7-day forecasts using public APIs. Built with vanilla JavaScript and CSS grid, optimized for mobile and desktop.</p>
+          <div class="project-links">
+            <a href="https://github.com/username/weather-app" target="_blank" rel="noopener" aria-label="GitHub repository link for Weather Forecast App">
+              <span class="material-icons icon-link">code</span>Code
+            </a>
+            <a href="https://weather.example.com" target="_blank" rel="noopener" aria-label="Live demo link for Weather Forecast App">
+              <span class="material-icons icon-link">launch</span>Live
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" aria-label="Contact me section" tabindex="0">
+    <h2>Contact Me</h2>
+    <form id="contact-form" novalidate>
+      <label for="contact-name">Name</label>
+      <input type="text" id="contact-name" name="name" required placeholder="Your full name" aria-required="true" />
+      <label for="contact-email">Email</label>
+      <input type="email" id="contact-email" name="email" required placeholder="you@example.com" aria-required="true" />
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" name="message" rows="5" required placeholder="Write your message here..." aria-required="true"></textarea>
+      <button type="submit" aria-label="Send message">Send Message</button>
+    </form>
+    <div id="form-feedback" role="alert" aria-live="polite" style="margin-top: 1rem; font-weight: 600;"></div>
+  </section>
+</main>
+
+
+</body>
+</html>
+
